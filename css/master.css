@@ -3,20 +3,42 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.customBtnSearch{
-  color: #FFFFFF;
-  background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-.customBtnSearch:hover{
-  color: #FFFFFF;
-  background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+.customImgLogo{
+  margin-top: -10px;
 
+}
+.customBannerLogo{
+  width: 700px;
+  height: 150px;
+  margin-top: 10px;
+}
+table{
+  margin-top: 5px;
+  border: hidden;
+}
+table td{
+  border: hidden;
+}
+table tr{
+  border: hidden;
+}
+.customBreadcrumb{
+  background-color: #ffffff;
+}
+.customRadio{
+  margin-bottom: 22px;
+}
+.customTextOptions{
+  color: green;
+}
+.customBtnSave{
+  font-size: 15px;
+}
+.customBtnDistance{
+  font-size: 15px;
+  background-color: grey;
+}
+.customBtnExtras{
+  font-size: 15px;
+  background-color: #589442;
 }
