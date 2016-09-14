@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
     <title>Bendito Coffee Shop</title>
@@ -19,7 +20,7 @@
                   <div class="input-group-addon">Cerca:</div>
                     <input type="text" class="form-control" id="exampleInputRestaurant" placeholder=" Cali, Colombia">
                 </div>
-                <button type="submit" class="btn btn-default glyphicon glyphicon-search"> Buscar</button>
+                <button type="submit" class="customBtnSearch btn btn-default glyphicon glyphicon-search"> Buscar</button>
               </div>
             </form>
       </div>
@@ -35,39 +36,98 @@
     </header>
     <article>
       <section>
-        <div class="container-fluid">
-         <center>
-          <div class="row-fluid col-md-6"><img src="img/demo.gif" alt="imagen logo" class="customImgLogo img-responsive"></div>
-          <div class="row-fluid col-md-11"><img src="img/banner.png" alt="imagen logo" class="customBannerLogo img-responsive"></div>
+        <div class="customContainerHeader container">
+          <div class="row-fluid">
+          <table class="table table-responsive">
+            <tr>
+              <td><div class="row-fluid col-md-6"><img src="img/demo.gif" alt="imagen logo" class="customImgLogo img-responsive"></div></td>
+            </tr>
+            <tr>
+              <td><div class="row-fluid col-md-12"><img src="img/banner.png" alt="imagen logo" class="customBannerLogo img-responsive"></div></td>
+            </tr>
+          </table>
 
-          <div class="customTableDescription row-fluid">
-
-            <table  class="table table-condensed">
-              <tr class="">
+            <table  class="table table-responsive table-condensed">
+              <tr  class="col-md-10">
                 <td><label class="customRadio radio-inline"><input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></label>
                   <a href="#"> 3 Opiniones</a></td>
-                <td clas="customTextOptions"><strong>N.°2</strong>de 6 Café y té en Cali</td>
-                <td clas="customTextOptions"><strong>N.°190</strong>de 509 Lugares donde comer en Cali</td>
+                <td><strong>N.°2</strong>de 6 Café y té en Cali</td>
+                <td><strong>N.°190</strong> de 509 Lugares donde comer en Cali</td>
               </tr>
-              <tr>
+              <tr class="col-md-10">
                 <td>Descripción general</td>
                 <td><a href="#">Opiniones (3)</a></td>
                 <td><a href="#">Detalles</a></td>
                 <td><a href="#">P y R</a></td>
                 <td><a href="#">Ubicación</a></td>
-                <td><button type="button" class="customBtnSave btn btn-default btn-xs glyphicon glyphicon-heart"> Guardar</button>
-                <button type="button" class="customBtnDistance btn btn-default btn-xs glyphicon glyphicon-plane"> 5kms</button>
-                > <button type="button" class="customBtnExtras btn btn-default btn-xs">Completar tu opinión</button>
+                <td><button type="button" class="customBtnSave btn btn-default btn-xs glyphicon glyphicon-heart-empty"> Guardar</button>
+                <button type="button" class="customBtnDistance btn btn-default btn-xs glyphicon glyphicon-plane">5kms.</button>
+                 <button type="button" class="customBtnExtras btn btn-default btn-xs">Completar tu opinión</button>
                 <button type="button" class="customBtnExtras btn btn-default btn-xs">Comparte tus fotos</button></td>
               </tr>
             </table>
+        </div>
+       </div>
+      </section>
+    </article>
+    <article>
+      <section class="customSection2">
+          <div class="container">
+            <div class="row-fluid">
+              <div class="col-xs-12 col-md-8">
+                <table class="table table-responsive">
+                  <tr>
+                   <td rowspan="3"> <img src="img/slider1.png" class="customImgPpal  img-responsive" alt="Responsive image"> </td>
+                   <td><img src="img/slider2.png" class="customImgSec img-responsive" alt="Responsive image">  </td>
+                   </tr>
+                   <tr>
+                   <td><img src="img/slider2.png" class="customImgSec img-responsive" alt="Responsive image"></td>
+                   </tr>
+                </table>
+              </div>
+              <div class="customSideRight col-xs-6 col-md-4">
+                  <div class="col-md-12">
+                    Av 9N # 12-05, Cali 760001, Colombia
+                    <div class="glyphicon glyphicon-phone"><a href="tel:+573007138133">573007138133</a></div> <div class="glyphicon glyphicon-globe"><a href="#">Página web</a></div> <div class="glyphicon glyphicon-envelope"><a href="mailto:contacto@alguien.com">E-mail</a></div>
+                  </div>
+                  <div class="col-md-12"><br>
+                    <iframe width="290" height="110" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCMVlFuzc4EKu_Y-B-dNfYmLWGt4goYdqk
+                    &q=Space+Needle,Seattle+WA" allowfullscreen></iframe>
+                  </div>
+                  <div class="col-md-12"><br>
+                    <a href="#">Detalles</a>
+                    <h4> <small>DESCRIPCIÓN DE LUGAR, ESPECIALIDADES</small></h4>
+                    <table class="table table-responsive table-bordered">
+                       <tr><td colspan="2"><p class="customDescSite">ESTE LUGAR VENDE CAFE EN GRANO DECORACIÓN SOUVENIRS, ARTICULOS PREPARACIÓN DEL CAFÉ Y DIFERENTES, MENÚ FITNESS, PARA DIABETICOS</p></td></tr>
+                       <tr>
+                         <td><p class="customDescSite">PRESENTACIÓN EN VIVO DE ARTISTAS</p></td>
+                         <td><p class="customDescSite">CAPACIDAD DE ATENDER EVENTOS Y REUNIONES</p></td>
+                       </tr>
+                    </table>
+                  </div>
+                  <div class="setFontSizeDate">Hoy 11:30 - 22:00 <p class="customOpenNow"><strong>Abierto ahora</strong></p> - <a href="#">Todos los horarios</a></div>
+                  <div class="col-md-12">
+                    <table class="table table-bordered">
+                      <tr>
+                       <th colspan="2">CALIFICA ESTE SITIO <div class="glyphicon glyphicon-star"></div></th>
+                      </tr>
+                      <tr>
+                       <td>REDES SOCIALES</td>
+                       <td>RECOMIENDALO A UN AMIGO</td>
+                      </tr>
+                      <tr>
+                       <td>DEJA TU FOTO AQUI</td>
+                       <td>NOS INTERESA TU OPINION</td>
+                      </tr>
+                    </table>
+                  </div>
+
+
+
+
+              </div>
+            </div>
           </div>
-
-         </center>
-        </div>
-
-        </div>
-
       </section>
     </article>
   </body>
