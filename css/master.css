@@ -80,7 +80,59 @@ body{
   width: 675px;
   height: 170px;
 }
-
+.tituloOpinion{
+  color: #006699;
+  font-style: italic;
+  float: left;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: -50px;
+  font-size: large;
+}
+.tituloNuevo{
+  margin-right: -20px;
+  font-size: 14px;
+  margin-top: -50px
+}
+.flechaComent{
+  width: 20px;
+  float: inherit;
+  margin-left: -16px;
+  margin-top: 15px;
+}
+.likeBtn{
+  color:  #589442;
+}
+.txtComment{
+  text-align: justify;
+  margin-bottom: 15px;
+  margin-top: -15px;
+}
+.txtDenuncia{
+  float: right;
+  margin-top: -20px;
+  color: grey;
+  margin-right: -190px;
+}
+.imgSocialComment{
+  margin-left: 58px;
+  margin-top: 7px;
+}
+.imgOpiniones{
+  margin-left: -22px;
+  display: inline-flex;
+  width: 20px;
+  margin-top: 19px;
+  float: left;
+}
+.txtTituloInicioOpinion{
+  margin-top: -45px;
+}
+.arrowRate{
+  width: 185px;
+  margin-left: 10px;
+  display: inline-flex;
+}
 section{
   margin-left: 15%;
 }
